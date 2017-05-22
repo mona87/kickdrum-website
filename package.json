@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server --port 4000 --config webpack.config.dev.js",
     "build": "webpack --config webpack.config.prod.js  --display-error-details",
     "dev": "webpack-dev-server --port 4000 --config webpack.config.dev.js"
   },
